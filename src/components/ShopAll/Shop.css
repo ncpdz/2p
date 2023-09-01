@@ -1,0 +1,24 @@
+.button-container {
+    bottom: -20px;
+    transition: all 200ms ease-linear;
+  }
+  
+  .button-container:hover {
+    bottom: -10px;
+  }
+  
+  .button-container button {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-container .button-text {
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transition: all 200ms ease-linear;
+  }
+  
+  .button-container:hover .button-text {
+    opacity: 1;
+  }
